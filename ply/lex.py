@@ -323,7 +323,7 @@ class Lexer:
 # -----------------------------------------------------------------------------
 # _get_regex(func)
 #
-# Returns the regular expression assigned to a function either as a doc string
+# Returns the regular expression assigned to a function either as a docstring
 # or as a .regex attribute attached by the @TOKEN decorator.
 # -----------------------------------------------------------------------------
 def _get_regex(func):
