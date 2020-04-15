@@ -559,7 +559,7 @@ can use the ``@TOKEN`` decorator.  For example::
 
 This will attach ``identifier`` to the docstring for ``t_ID()``
 allowing ``lex.py`` to work normally.  Naturally, you could use ``@TOKEN`` 
-on all functions as an alternative to using doc-strings. 
+on all functions as an alternative to using docstrings.
 
 Debugging
 ^^^^^^^^^
@@ -2642,7 +2642,7 @@ execution.
 
 Using Python -OO Mode
 ---------------------
-Because of PLY's reliance on doc-strings, it is not compatible with
+Because of PLY's reliance on docstrings, it is not compatible with
 `-OO` mode of the interpreter (which strings doc strings).  If you
 want to support this, you'll need to write a decorator or some other
 tool to attach doc strings to functions.  For example:
